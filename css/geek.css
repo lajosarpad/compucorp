@@ -1,0 +1,283 @@
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+    font-family: Museo_sans, sans-serif;
+}
+
+section {
+    display: block;
+    background: #f1f2f2;
+    height:100%;
+    width:100%;
+}
+
+section#header {
+    background: #d83454;
+}
+
+section#header .span-container {
+    max-width: 700px;
+}
+
+section#header .inner-container .span-container > span {
+    color: #ffffff;
+    display: block;
+    font-size: 1.53vw;
+}
+
+#header .inner-container img {
+    margin-bottom: 14%;
+}
+
+#header .inner-container {
+    top: 61%;
+}
+
+section .span-container > span {
+    font-size: 2.18vw;;
+}
+
+section#section4 {
+    background: #ffffff;
+}
+
+.container {
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.inner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img-pad {
+    padding: 7%;
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
+}
+
+.button-container {
+    max-width: 1300px;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 10px;
+}
+
+.button-container > a > img {
+    width: 5.4%;
+    margin: 0 auto;
+}
+
+#section4 .inner-container, #section5 .inner-container {
+    display: inline-flex;
+    transform: translate(0%,-50%);
+    left: 15%;
+    right: 15%;
+}
+
+#section4 .inner-container > div:not(#ux-icon-div) {
+    margin-right: 8%;
+}
+
+#section4 .inner-container > div > span {
+    line-height: 5em;
+    font-size: 1.5vw;
+}
+
+#section5 .inner-container > div:not(.no-marg) {
+    margin-right: 10%;
+}
+
+#content, #content > div {
+      -webkit-box-sixing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+    
+
+#section4 .inner-container img {
+    display: block;
+}
+
+.red {
+    color: #d83454;
+}
+
+#contact-form input, #contact-form textarea {
+    display: block;
+    margin-bottom: 2%;
+}
+
+#section6 .inner-container {
+    left: 0%;
+    transform: translate(0%, -50%);
+    width: 100%;
+}
+
+h1 {
+    font-family: Museo;
+    font-size: 4.6vw;
+    font-weight: normal;
+    color: #414042;
+    margin: 0;
+    padding-top: 3%;
+}
+
+form { 
+    width: 50%;
+    margin: 0 auto; 
+    top: 20%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+form textarea, form input { 
+    width: 60%;
+    margin: 0 auto; 
+}
+
+form input, form textarea {
+    text-indent: 2%;
+    border: 1px solid #cccccc;
+    padding: 2% 4%;
+    font-size: 1.7vw;
+    font-family: Museo_sans, sans-serif;
+}
+
+#contact-form #send-btn {
+    background: #d83454;
+    color: #ffffff;
+    width: 68%;
+    margin-bottom: 4%;
+}
+
+form p {
+    color: #414042;
+    font-size: 1.5vw;
+}
+
+i {
+    color: #b2b7b8;
+}
+
+.fa {
+    font-size: 2vw;
+}
+
+.map img {
+    width: 100%;
+    
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+
+@font-face { font-family: 'Museo_sans'; src: url('../fonts/museosans-300-webfont.woff') format('woff'); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'Museo'; src: url('../fonts/Museo300-Regular.otf') format("opentype"); font-weight: 300; font-style: normal; }
+
+@media only screen and (max-width: 300px), only screen and (max-device-width: 800px) {
+    #section4 .inner-container {
+        display: inline-block;
+        width: 110px;
+        transform: translate(-50%,-50%);
+        left: 50%;
+    }
+    
+    #section4 .inner-container > div > img {
+        width: 80px;
+        margin-left: 15px;
+    }
+    
+    section#section4 .inner-container > div > span {
+        font-size: 3vw;
+        line-height: 2em;
+    }
+    
+    section#header .inner-container .span-container > span {
+        font-size: 4vw;
+    }
+    
+    section .span-container > span {
+        font-size: 4vw;
+    }
+    
+    .inner-container div i {
+        font-size: 30px;
+    }
+    
+    .inner-container div i.fa-angle-left {
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+    
+    .inner-container div i.fa-angle-right {
+        position: absolute;
+        right: 0;
+        top: 50%;
+    }
+    
+    form {
+        width: 90%;
+        top: 30%;
+    }
+    
+    form input, form textarea {
+        font-size: 4vw;
+    }
+    
+    form p {
+        font-size: 4vw;
+    }
+    
+    .button-container > a > img {
+        width: 30px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    #section5 .inner-container {
+        display: inline-block;
+    }
+    
+    #section5 .inner-container > div:not(.no-marg) {
+        margin-right: 0;
+    }
+    
+    #section5 .inner-container img {
+        margin-bottom: 20%;
+    }
+    
+    .button-container {
+        margin-bottom: 20px;
+    }
+}

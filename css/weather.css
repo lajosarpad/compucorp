@@ -1,0 +1,60 @@
+.invisible, #main-container.allowed > .form {
+    display: none;
+}
+
+body {
+    background-color: #E9EBEC;
+}
+
+#main-container {
+    margin: 40px;
+}
+
+#input {
+    width: 150px;
+    height: 20px;
+    text-indent: 5px;
+}
+
+#weather-button {
+    height: 26px;
+    background: #27964F;
+    border: 1px solid #2E562E;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 13px;
+}
+
+#weather-button:hover {
+    opacity: 0.8;
+}
+
+#location-container:not(.invisible) {
+    display: block;
+    margin-top: 15px;
+}
+
+.img-desc-container {
+    display: inline-flex;
+    line-height: 50px;
+}
+
+#weather-params ul {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#weather-params ul li {
+    display: inline;
+}
+
+#weather-params ul li:first-child {
+    font-weight: bold;
+}
+
+#city {
+    font-weight: bold;
+}
+
