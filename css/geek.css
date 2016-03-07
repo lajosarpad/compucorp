@@ -281,3 +281,9 @@ i {
         margin-bottom: 20px;
     }
 }
+
+@-moz-document url-prefix() {
+    img {
+        width: 80%;
+    }
+}
